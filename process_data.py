@@ -1,3 +1,7 @@
+# Author: Angelina Espinoza-Limón
+# Project: DisasterResponse
+# File for loading, cleaning and saving data from files to a database
+
 import sys
 import pandas as pd
 import numpy as np
