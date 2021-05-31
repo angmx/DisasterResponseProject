@@ -2,7 +2,7 @@
 
 Author: Angelina Espinoza-Limon
 
-This project presents the anaysis over a set of messages that were captured with the Figure Eight system. The analysis concludes if a message belongs to a category: 'related', 'request', 'offer', 'aid_related', 'medical_help', 'medical_products', 'search_and_rescue', 'security', 'military', 'child_alone', 'water', 'food', 'shelter', 'clothing', 'money', 'missing_people', 'refugees', 'death', 'other_aid', 'infrastructure_related', 'transport', 'buildings', 'electricity', 'tools', 'hospitals', 'shops', 'aid_centers', 'other_infrastructure', 'weather_related', 'floods', 'storm', 'fire', 'earthquake', 'cold', 'other_weather', 'direct_report'.
+This project presents the anaysis for the project Disaster Response. This analysis is performed over a set of messages that were captured with the Figure Eight system. The analysis concludes if a message belongs to some of the following categories: 'related', 'request', 'offer', 'aid_related', 'medical_help', 'medical_products', 'search_and_rescue', 'security', 'military', 'child_alone', 'water', 'food', 'shelter', 'clothing', 'money', 'missing_people', 'refugees', 'death', 'other_aid', 'infrastructure_related', 'transport', 'buildings', 'electricity', 'tools', 'hospitals', 'shops', 'aid_centers', 'other_infrastructure', 'weather_related', 'floods', 'storm', 'fire', 'earthquake', 'cold', 'other_weather', 'direct_report'.
 
 Each message might have several categories, then the problem requires a multi-class, multi-label and multi-output classifier. Therefore, the problem is addressed by coding a grid search to find out the best parameters for the ExtraTress and K-nearest classifiers, which are recomended for these kind of multi-class, multi-output classification.
 
