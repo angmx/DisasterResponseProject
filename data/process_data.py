@@ -144,6 +144,8 @@ def clean_data(df):
     print("Dataframes columns = ", df.columns)    
     print("Dataframe head=",df.head())    
 
+    df['related'] = df['related'].astype('str').str.replace('2', '1')
+    df['related'] = df['related'].astype('int')
     return df
 
 
