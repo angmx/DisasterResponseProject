@@ -82,16 +82,15 @@ Installation instructions:
 Usage of the app:
 1. In the web site home, you will have the following image:
 
-
+Note: See images in Readme.pdf
  
 and some graphs of the training data used for this model:
- 
 
+Note: See images in Readme.pdf
 
 - Introduce a message text and the model will give a classification result, as the following:
 
- 
-
+Note: See images in Readme.pdf
 
 
 Acknowledgements:
