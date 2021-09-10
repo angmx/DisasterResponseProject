@@ -72,12 +72,17 @@ App requirements:
 Installation instructions:
 1. Download the zip folder of the project in your local folder
 2. Unzip the folder and get the folders: app, data, models
-3. Run the following command in the app's directory to run  
+3. To run ETL pipeline that cleans data and stores in database
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+4. To run ML pipeline that trains classifier and saves
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+5. Run the following command in the app's directory to run  
     the web app:
 
     python run.py
 
-4. Go to http://0.0.0.0:3001/
+6. Go to http://0.0.0.0:3001/
+   
 
 Usage of the app:
 1. In the web site home, you will have the following image:
